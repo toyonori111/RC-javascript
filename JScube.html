@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>無題ドキュメント</title>
+
+<style>
+#top {
+	width:950px;
+	height:200px;
+	background-color:#00F;
+}
+#center {
+	width:950px;
+	height:150px;
+	background-color:#0F0;
+}
+#foot {
+	width:1950px;
+	height:600px;
+	background-color:#CCC;
+}
+
+</style>
+
+<style>
+</style>
+
+</head>
+
+<script type="text/javascript" src="./cube.js"></script>
+
+
+<body>
+
+<div id="top">
+    <p>
+    	<input type="button" value="時計回りA" onClick="Rotation_A()">
+        <input type="button" value="反時計回りA" onClick="ReverseRotation_A()">
+        <input type="button" value="時計回りA_F" onClick="Rotation_A_F()">
+        <input type="button" value="反時計回りA_F" onClick="ReverseRotation_A_F()">
+        <input type="button" value="時計回りF" onClick="Rotation_F()">
+        <input type="button" value="反時計回りF" onClick="ReverseRotation_F()">
+    </p>
+    <p>
+    	<input type="button" value="時計回りB" onClick="Rotation_B()">
+        <input type="button" value="反時計回りB" onClick="ReverseRotation_B()">
+        <input type="button" value="時計回りB_D" onClick="Rotation_B_D()">
+        <input type="button" value="反時計回りB_D" onClick="ReverseRotation_B_D()">
+        <input type="button" value="時計回りD" onClick="Rotation_D()">
+        <input type="button" value="反時計回りD" onClick="ReverseRotation_D()">
+    </p>
+    <p>
+    	<input type="button" value="時計回りC" onClick="Rotation_C()">
+        <input type="button" value="反時計回りC" onClick="ReverseRotation_C()">
+        <input type="button" value="時計回りC_E" onClick="Rotation_C_E()">
+        <input type="button" value="反時計回りC_E" onClick="ReverseRotation_C_E()">
+        <input type="button" value="時計回りE" onClick="Rotation_E()">
+        <input type="button" value="反時計回りE" onClick="ReverseRotation_E()">
+    </p>
+    <p>
+    	<input type="button" value="90度右回転_A" onClick="Turn90_A()">
+        <input type="button" value="90度左回転_A" onClick="Turn90_Reverse_A()">
+        <input type="button" value="90度右回転_B" onClick="Turn90_B()">
+        <input type="button" value="90度左回転_B" onClick="Turn90_Reverse_B()">
+        <input type="button" value="90度右回転_C" onClick="Turn90_C()">
+        <input type="button" value="90度左回転_C" onClick="Turn90_Reverse_C()">
+    </p>
+    <p><input type="button" value="show" onClick="show()">
+    </p>
+</div>
+
+<div id="center">
+	<p id="cubeview">
+       <script type="text/javascript">
+	   <!--
+	   view();
+	   -->
+	   </script>
+       <br>
+       
+
+    </p>
+</div>
+
+<div id="foot">
+	<p id="Aview">
+	<img src="waku.gif">
+    <img src="blue.gif" style="position:relative;  top:-125px; left:-180px;">
+    <img src="blue.gif" style="position:relative;  top:-125px; left:-185px;">
+    <img src="blue.gif" style="position:relative;  top:-125px; left:-190px;">
+    <img src="blue.gif" style="position:relative;  top:-75px; left:-345px;">
+    <img src="blue.gif" style="position:relative;  top:-75px; left:-350px;">
+    <img src="blue.gif" style="position:relative;  top:-75px; left:-355px;">
+    <img src="blue.gif" style="position:relative;  top:-25px; left:-510px;">
+    <img src="blue.gif" style="position:relative;  top:-25px; left:-515px;">
+    <img src="blue.gif" style="position:relative;  top:-25px; left:-520px;">
+    </p>
+    <p id="Bview">
+    
+    </p>
+    <p id="Cview">
+    
+    </p>
+</div>
+
+
+
+</body>
+</html>
