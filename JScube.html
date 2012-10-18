@@ -6,25 +6,25 @@
 
 <style>
 #wrap {
-	width:1300px;
-	height:400px;
+	width:1250px;
+	height:640px;
 }
 #button {
-	width:650px;
-	height:400px;
+	width:250px;
+	height:640px;
 	background-color:#88F;
 	float:left;
 }
 #cube {
 	width:650px;
-	height:400px;
-	background-color:#DFA;
+	height:340px;
+	background-color:#FFB;
 	float:left;
 }
 #opencube {
 	width:650px;
 	height:300px;
-	background-color:#CCC;
+	background-color:#FFB;
 	float:left;
 }
 
@@ -104,29 +104,29 @@
 
 <div id="wrap">
 <div id="button">
-    <p>
-    	<input type="button" value="時計回りA" onClick="Rotation_A()" onMouseMove="viewChoose_A()" onMouseOut="viewCube()">
-        <input type="button" value="反時計回りA" onClick="ReverseRotation_A()" onMouseMove="viewChoose_A()" onMouseOut="viewCube()">
+    
+    	<input type="button" value="時計回りA__" onClick="Rotation_A()" onMouseMove="viewChoose_A()" onMouseOut="viewCube()">
+        <input type="button" value="反時計回りA__" onClick="ReverseRotation_A()" onMouseMove="viewChoose_A()" onMouseOut="viewCube()">
         <input type="button" value="時計回りA_F" onClick="Rotation_A_F()" onMouseMove="viewChoose_AF()" onMouseOut="viewCube()">
         <input type="button" value="反時計回りA_F" onClick="ReverseRotation_A_F()" onMouseMove="viewChoose_AF()" onMouseOut="viewCube()">
-        <input type="button" value="時計回りF" onClick="Rotation_F()" onMouseMove="viewChoose_F()" onMouseOut="viewCube()">
-        <input type="button" value="反時計回りF" onClick="ReverseRotation_F()" onMouseMove="viewChoose_F()" onMouseOut="viewCube()">
-    </p>
+        <input type="button" value="時計回りF__" onClick="Rotation_F()" onMouseMove="viewChoose_F()" onMouseOut="viewCube()">
+        <input type="button" value="反時計回りF__" onClick="ReverseRotation_F()" onMouseMove="viewChoose_F()" onMouseOut="viewCube()">
+    
     <p>
-    	<input type="button" value="時計回りB" onClick="Rotation_B()" onMouseMove="viewChoose_B()" onMouseOut="viewCube()">
-        <input type="button" value="反時計回りB" onClick="ReverseRotation_B()" onMouseMove="viewChoose_B()" onMouseOut="viewCube()">
+        <input type="button" value="時計回りB__" onClick="Rotation_B()" onMouseMove="viewChoose_B()" onMouseOut="viewCube()">
+        <input type="button" value="反時計回りB__" onClick="ReverseRotation_B()" onMouseMove="viewChoose_B()" onMouseOut="viewCube()">
         <input type="button" value="時計回りB_D" onClick="Rotation_B_D()" onMouseMove="viewChoose_BD()" onMouseOut="viewCube()">
         <input type="button" value="反時計回りB_D" onClick="ReverseRotation_B_D()" onMouseMove="viewChoose_BD()" onMouseOut="viewCube()">
-        <input type="button" value="時計回りD" onClick="Rotation_D()" onMouseMove="viewChoose_D()" onMouseOut="viewCube()">
-        <input type="button" value="反時計回りD" onClick="ReverseRotation_D()" onMouseMove="viewChoose_D()" onMouseOut="viewCube()">
+        <input type="button" value="時計回りD__" onClick="Rotation_D()" onMouseMove="viewChoose_D()" onMouseOut="viewCube()">
+        <input type="button" value="反時計回りD__" onClick="ReverseRotation_D()" onMouseMove="viewChoose_D()" onMouseOut="viewCube()">
     </p>
     <p>
-    	<input type="button" value="時計回りC" onClick="Rotation_C()" onMouseMove="viewChoose_C()" onMouseOut="viewCube()">
-        <input type="button" value="反時計回りC" onClick="ReverseRotation_C()" onMouseMove="viewChoose_C()" onMouseOut="viewCube()">
+        <input type="button" value="時計回りC__" onClick="Rotation_C()" onMouseMove="viewChoose_C()" onMouseOut="viewCube()">
+        <input type="button" value="反時計回りC__" onClick="ReverseRotation_C()" onMouseMove="viewChoose_C()" onMouseOut="viewCube()">
         <input type="button" value="時計回りC_E" onClick="Rotation_C_E()" onMouseMove="viewChoose_CE()" onMouseOut="viewCube()">
         <input type="button" value="反時計回りC_E" onClick="ReverseRotation_C_E()" onMouseMove="viewChoose_CE()" onMouseOut="viewCube()">
-        <input type="button" value="時計回りE" onClick="Rotation_E()" onMouseMove="viewChoose_E()" onMouseOut="viewCube()">
-        <input type="button" value="反時計回りE" onClick="ReverseRotation_E()" onMouseMove="viewChoose_E()" onMouseOut="viewCube()">
+        <input type="button" value="時計回りE__" onClick="Rotation_E()" onMouseMove="viewChoose_E()" onMouseOut="viewCube()">
+        <input type="button" value="反時計回りE__" onClick="ReverseRotation_E()" onMouseMove="viewChoose_E()" onMouseOut="viewCube()">
     </p>
     <p>
     	<input type="button" value="90度右回転_A" onClick="Turn90_A()">
@@ -178,8 +178,11 @@
     <img src="green.gif" style="position:relative;  top:-2px; left:-497px;">
     </p>
 </div>
-</div>
 
+
+<div id="samplecube">
+	<img src="ABC.gif">
+</div>
 
 <div id="opencube">
     
@@ -258,12 +261,12 @@
     
 </div>
 
-<div id="samplecube">
-	<img src="ABC.gif">
-</div>
+
 <div id="sampleopencube">
 	<img src="opencubeview.gif">
 </div>
+</div>
+
 
 </body>
 </html>
